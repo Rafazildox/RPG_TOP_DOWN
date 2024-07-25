@@ -853,6 +853,7 @@ parameters/walk/blend_position = Vector2(0, 0)
 [node name="AttackArea" type="Area2D" parent="."]
 
 [node name="Collision" type="CollisionShape2D" parent="AttackArea"]
+visible = false
 position = Vector2(3, 14)
 shape = SubResource("RectangleShape2D_wnux6")
 disabled = true
